@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Padhopr</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body class="app">
+  
+  <div id="topbar">
+    <div class="container">
+      <img src="img/logo-white.svg" width="30" />
+      <a href="/"><i class="material-icons right">cancel</i></a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="property">
+      <h1 class="h5">Add property</h1>
+      <form class="form">
+        <div class="field-group clear row">
+          <label for="address" class="col-3">Address</label>
+          <div class="col-9">
+            <input id="address" name="address" class="field" type="text" />
+          </div>
+        </div>
+        <div class="field-group clear row">
+          <label for="url" class="col-3">Link</label>
+          <div class="col-9">
+            <input id="url" name="url" class="field" type="text" />
+          </div>
+        </div>
+        <div class="field-group clear row">
+          <label for="type" class="col-3">Type</label>
+          <div class="col-9">
+            <select id="type" name="type" class="field">
+              <option selected>House</option>
+              <option>Bungalow</option>
+              <option>Apartment</option>
+            </select>
+          </div>
+        </div>
+        <div class="field-group clear row">
+          <div class="col-12">
+          <button class="button right">Add property</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+    
+<script src="js/vendor/jquery-1.11.3.min.js"></script>
+
+</body>
+</html>
